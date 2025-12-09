@@ -1,7 +1,7 @@
 import { AudioSourceEndpoint } from "./segments/audio_source.js";
 import { CorePlugin } from "./segments/core.js";
 
-export class YouTubeAudioSourcePlugin {
+export default class YouTubeAudioSourcePlugin {
 	audioSource: AudioSourceEndpoint;
 	core: CorePlugin;
 
